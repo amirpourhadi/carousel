@@ -1,9 +1,9 @@
 ## Carousel
-1. in vscode open a new terminal and ``` js run npm i ```
-2. after installation finished, ``` js run npm start ```
+1. in vscode open a new terminal and ``` run npm i ```
+2. after installation finished, ``` run npm start ```
 
 ## Prod Build
-+To create a production build, ``` js run npm run build ```
++To create a production build, ``` run npm run build ```
 +Production version will be created in the ./dist folder.
 
 ## Usage:
@@ -14,7 +14,7 @@ determine the carousel photos navigation by passing value to showDots property.
 ``` js
      <Carousel photos={PHOTOS} showDots={true}/>
 ```   
-##The image list format should be like this example:
+## The image list format should be like this example:
 
 ``` js
      {
