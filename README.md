@@ -9,9 +9,12 @@
 + Production version will be created in the ./dist folder.
 
 ## Usage:
-+ In order to use the carousel component, simply import it to your App 
-or other components and add the below tag, pass the list of photos and
-determine the carousel photos navigation by passing value to showDots property.
++ In order to use the carousel component, 
+  simply import it to your App 
+  or other components and add the below tag,
+  pass the list of photos and
+  determine the carousel photos navigation by
+  passing value to showDots property.
 
 ``` js
      <Carousel photos={PHOTOS} showDots={true}/>
