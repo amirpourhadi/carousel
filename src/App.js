@@ -6,7 +6,7 @@ import { Carousel } from './components/components';
 
 function App() {
     return <>
-            <Carousel photos={PHOTOS} showDots={false}/>
+            <Carousel photos={PHOTOS} showDots={true}/>
            </>
 }
 
