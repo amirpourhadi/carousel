@@ -1,4 +1,6 @@
-## Carousel
+# Carousel
+
+## How to run application:
 1. in vscode open a new terminal and ``` run npm i ```
 2. after installation finished, ``` run npm start ```
 
