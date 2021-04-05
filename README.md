@@ -3,8 +3,8 @@
 2. after installation finished, ``` run npm start ```
 
 ## Prod Build
-+To create a production build, ``` run npm run build ```
-+Production version will be created in the ./dist folder.
++ To create a production build, ``` run npm run build ```
++ Production version will be created in the ./dist folder.
 
 ## Usage:
 In order to use the carousel component, simply import it to your App 
