@@ -1,8 +1,8 @@
 # Carousel
 
 ## How to run application:
-1. in vscode open a new terminal and ``` run npm i ```
-2. after installation finished, ``` run npm start ```
+1. In vscode open a new terminal and ``` run npm i ```
+2. After installation finished, ``` run npm start ```
 
 ## Prod Build
 + To create a production build, ``` run npm run build ```
