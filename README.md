@@ -6,7 +6,7 @@
 
 ## Prod Build
 + To create a production build, ``` run npm run build ```
-+ Production version will be created in the ./dist folder.
++ The production version will be created in the ./dist folder.
 
 ## Usage:
 + In order to use the carousel component, 
