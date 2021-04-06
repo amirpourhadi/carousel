@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { PHOTO_PATH, PHOTO_PATH_THUMB } from '../../utils/constants';
-import './carousel.css';
+import './carousel.scss';
 
 function Carousel(props) {
     const { photos, showDots = false } = props;

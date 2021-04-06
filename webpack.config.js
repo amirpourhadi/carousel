@@ -1,4 +1,5 @@
 const HtmlWebPackPlugin = require("html-webpack-plugin");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const path = require('path');
 const webpack = require('webpack');
 
@@ -34,23 +35,27 @@ module.exports = {
                         options: {
                             outputPath: 'assets/images/carousel'
                         }
-                    },
+                    }
                 ],
             },
             {
-                test: /\.css$/i,
-                use: ["style-loader", "css-loader"],
-            },
+                test: /\.s[ac]ss$/i,
+                use: [
+                    "style-loader",
+                    "css-loader",
+                    "sass-loader"
+                ]
+            }
         ]
     },
     plugins: [
         new HtmlWebPackPlugin({ template: "./src/index.html" }),
         new webpack.ProgressPlugin({
             handler: (percentage, message, ...args) => {
-              if(progressMessage !== message) {
-                progressMessage = message;
-                console.info(`${(percentage * 100).toFixed()}% ${message}`);
-              }
+                if (progressMessage !== message) {
+                    progressMessage = message;
+                    console.info(`${(percentage * 100).toFixed()}% ${message}`);
+                }
             },
         })
     ]
